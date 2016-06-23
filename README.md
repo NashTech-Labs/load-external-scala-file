@@ -10,7 +10,6 @@ sbt test
 ### External file content (ExternalFile.scala)
 <pre>
 new ExteranlProcessing {
-  override def process(a:Int,b:Int) = sum(a,b)
-   def sum(a:Int,b:Int) = a + b
+  override def process(a:Int,b:Int) = a + b
 }
 </pre>
