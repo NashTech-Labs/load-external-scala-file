@@ -7,9 +7,6 @@ import scala.io.Source
 import scala.reflect.runtime.currentMirror
 import scala.tools.reflect.ToolBox
 
-/**
- * Created by rishi on 26/5/16.
- */
 abstract class ExteranlProcessing {
   def process(a: Int, b: Int): Int
 }
